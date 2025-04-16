@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-backend
+spec:
+  containers:
+    - name: nginx-backend
+      image: nginx
+      ports:
+        - containerPort: 80
